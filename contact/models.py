@@ -1,6 +1,8 @@
 from django.db import models
 from django.utils import timezone
 
+
+#model
 class Contact(models.Model): 
     first_name = models.CharField(max_lenght=50)
     last_name = models.CharField(max_length=50)
