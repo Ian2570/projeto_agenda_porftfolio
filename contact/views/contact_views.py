@@ -17,6 +17,7 @@ def index(request):
         'page_obj': page_obj,
         'site_title': 'Contatos - ',
         
+        
     }
 
     return render (
